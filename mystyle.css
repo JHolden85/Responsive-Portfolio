@@ -27,6 +27,12 @@ h1{
 height: 2.5em;
 width:auto;
 } 
+
+.state{
+  font-size: 1.25rem;
+  padding: 0.50rem
+}
+
 /* ==================FOR THE NAVIGATION BAR======================= */
 #navbar{
   overflow: hidden;
