@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Adding a stylesheet from Bootswatch-->
+    <link rel="stylesheet" href="../public/mystyle.css">
+    <link rel="stylesheet" href="../public/stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="../public/script.js"></script>
+</head>
+<body>
+    <h1 id="home">Nicolai Pitroff's Portfolio</h1>
+       
+<!-- The Image Bar -->
+<div class="row">
+    <div class="column">
+      <img src="../images/Grand_Canyon.jpg" alt="Grand Canyon" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="../images/Long Beach.jpg" alt="Long Beach" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="../images/reno.jpg" alt="Reno" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="../images/Los Angeles.jpg" alt="Los Angeles" style="width:100%">
+    </div>
+  </div>
+
+  <!-- NAV BAR -->
+  <div id="navbar">
+    <a href="https://www.linkedin.com/in/nicolaipitroff">
+      <img src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="My Linked In" id="myLink">
+    </a>
+    <a href="https://github.com/NPitroff" id="myGit">
+    <img src="https://avatars0.githubusercontent.com/u/9919?s=280&v=4" alt="My Github" id="myGit">
+  </a>
+    <a href="index.html">Home</a>
+    <a href="./bio.html">Biography</a>
+    <a href ="./info.html">Contact Me</a>
+      <button onclick="dropdownFunction()" class="dropbtn">My Project Code Files</button>
+      <div id="gitDropdown" class="dropdown-content">
+        <a href="https://github.com/NPitroff/Responsive-Portfolio">My Portfolio</a>
+        <a href="https://github.com/NPitroff/Password_Generator.git">Password_Generator</a>
+        <a href="https://github.com/NPitroff/Horiseon-Semantic-Code.git">Semantic Code</a>
+        <a href="https://github.com/NPitroff/Nicolai-s-Javascript-Quiz.git">Javascript_Quiz</a>
+        <a href="https://github.com/NPitroff/Nicolai-workplace-calendar.git">Workplace Calendar</a>
+        <a href="https://github.com/NPitroff/Nicolai-Weather-Map.git">Weather Map</a>
+        <a href="https://github.com/NPitroff/Nicolai_Node_ReadMe.git">Node Readme Generator</a>
+        <a href="https://github.com/NPitroff/Employee-Template-Generator.git">Employee Template Generator</a>
+        <a href="https://github.com/NPitroff/Note_Taking_App_v2.1.git">Note Taking App</a>
+        <a href="https://github.com/NPitroff/Employee_Database.git">Employee Database</a>
+        <a href="https://github.com/NPitroff/Nicolai_E-Commerce_Database.git">E-Commerce Database</a>
+        <a href="https://github.com/NPitroff/NDPendent-Coder-Blog.git">Coding Blog</a>
+      </div>
+      <button onclick="secondDownFunction()" class="depbtn">My Deployed Projects</button>
+      <div id="depDropdown" class="depdown-content">
+        <a href="https://npitroff.github.io/Responsive-Portfolio/">My Portfolio</a>
+        <a href="https://npitroff.github.io/Password_Generator/">Password_Generator</a>
+        <a href="https://npitroff.github.io/Horiseon-Semantic-Code/">Semantic Code</a>
+        <a href="https://npitroff.github.io/Nicolai-s-Javascript-Quiz/">Javascript_Quiz</a>
+        <a href="https://npitroff.github.io/Nicolai-workplace-calendar/">Workplace Calendar</a>
+        <a href="https://npitroff.github.io/Nicolai-Weather-Map/">Weather Map</a>
+        <a href="https://drive.google.com/file/d/1nTEvnE4ZEIFR-lZ31UnWpNsnm2Hivzb8/view">Node Readme Generator Demo</a>
+        <a href="https://drive.google.com/file/d/10JsoKQgLDVXhFSD7boNyP5GkBH4Waev1/view">Employee Template Generator Demo</a>
+        <a href="https://immense-peak-04856.herokuapp.com/">Note Taking App</a>
+        <a href="https://drive.google.com/file/d/1mi5V485khHo-XVS3BexCjl47dRw2daMq/view">Employee Database</a>
+        <a href="https://drive.google.com/file/d/1Zv6wNmZvnEvpsCQh0GmSUkAVC7dK7MHK/view">E-Commerce Database</a>
+        <a href="https://ndpendentblog.herokuapp.com/">Coding Blog</a>
+      </div>
+    </div>
+  </div>
+<section>
+  <div class="brand">
+    <h2>Introduction</h2>
+    <p class="state">I am a Full-Stack web developer with a background in customer service and sales. I began working on my certificate for web development at UCI beginning in 2020 and have trained in Javascript, Node, and React to implement responsive web design. 
+      <br>
+      <br>I am enthusiastic about the learning opportunity that coding provides, and am known to ask many questions of my peers and mentors. With each new project, I push myself to try and implement new code that I had not used before. 
+      <br>
+      <br>An example is with an in progress web project that utilizes restful API. I needed a way to set up communication between our front end and back end to properly send user input to a search API. The Axios npm bridged that gap, and after reading the documentation, I successfully created a post request that called the search API and returned the data we were looking to display.
+      <br>
+      <br>I have found my new passion with code, and I love to solve new problems presented while coding. I believe that this newfound passion and drive to push my coding knowledge would be a strong addition to any organization.
+    </p>  
+  </div>
+</section>
+
+  
+</body>
+</html>
